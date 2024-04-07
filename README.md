@@ -8,8 +8,6 @@ An implementation of an [ApplicationMetrics](https://github.com/alastairwyse/App
 ##### 1) Create/Update the Database and Objects
 For new installations, run the [CreateDatabase.sql](https://github.com/alastairwyse/ApplicationMetrics.MetricLoggers.PostgreSql/blob/master/ApplicationMetrics.MetricLoggers.PostgreSql/Resources/CreateDatabase.sql) script against a PostgreSQL instance to create the 'ApplicationMetrics' database and objects to store the metrics.  The 'CREATE DATABASE' statement needs to be run separately, before logging in again under the new database context and running the remainder of the script.  The name of the database can be changed via a find/replace operation on the script (replacing all instances of 'ApplicationMetrics' with a desired database name).  Alternatively, the objects can be created in an existing database.  In any case, the 'Database' component of the connection string passed to the PostgreSqlMetricLogger class should be set to the matching database name.  
 
-For existing installations, the database schema can be upgraded to the latest version by running the [UpdateDatabase.sql](https://github.com/alastairwyse/ApplicationMetrics.MetricLoggers.PostgreSql/blob/master/ApplicationMetrics.MetricLoggers.PostgreSql/Resources/UpdateDatabase.sql) script against the existing 'ApplicationMetrics' database.  However if upgrading through multiple intermediate versions to get to the latest, the UpdateDatabase.sql scripts for the intermediate versions must also be run in sequence.
-
 ##### 2) Setup and Call the PostgreSqlMetricLogger Class
 
 The code below demonstrates the setup and use case (with fake metrics logged) of the PostgreSqlMetricLogger class...
