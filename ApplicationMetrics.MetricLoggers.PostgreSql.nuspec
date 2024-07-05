@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ApplicationMetrics.MetricLoggers.PostgreSql</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>Alastair Wyse</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">Apache-2.0</license>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/alastairwyse/ApplicationMetrics.MetricLoggers.PostgreSql/</projectUrl>
     <description>An ApplicationMetrics metric logger which writes metric and instrumentation events to a PostgreSQL database.</description>
     <summary>An ApplicationMetrics metric logger which writes metric and instrumentation events to a PostgreSQL database</summary>
-    <releaseNotes>Initial release.</releaseNotes>
+    <releaseNotes>Updated for compatibility with ApplicationMetrics version 6.3.0.</releaseNotes>
     <copyright>Copyright © Alastair Wyse 2024</copyright>
     <tags>metric metrics instrumentation client application counter statistics postgresql</tags>
     <icon>images\ApplicationMetrics.png</icon>
@@ -18,9 +18,8 @@
     <dependencies>
       <group targetFramework=".NETStandard2.1">
         <dependency id="ApplicationLogging" version="2.0.0" exclude="Build,Analyzers" />
-        <dependency id="ApplicationMetrics" version="6.2.0" exclude="Build,Analyzers" />
-        <dependency id="Npgsql" version="8.0.2" exclude="Build,Analyzers" />
-        <dependency id="StandardAbstraction" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="ApplicationMetrics" version="6.3.0" exclude="Build,Analyzers" />
+        <dependency id="Npgsql" version="8.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

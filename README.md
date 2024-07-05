@@ -120,6 +120,12 @@ A detailed sample implementation...<br />
     <td><b>Changes</b></td>
   </tr>
   <tr>
+    <td valign="top">1.1.0</td>
+    <td>
+      Updated for compatibility with ApplicationMetrics version 6.3.0.<br />
+    </td>
+  </tr>
+  <tr>
     <td valign="top">1.0.0</td>
     <td>
       Initial release.
