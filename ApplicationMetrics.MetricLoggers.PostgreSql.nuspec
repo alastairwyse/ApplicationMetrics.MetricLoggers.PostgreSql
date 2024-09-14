@@ -19,7 +19,7 @@
       <group targetFramework=".NETStandard2.1">
         <dependency id="ApplicationLogging" version="2.0.0" exclude="Build,Analyzers" />
         <dependency id="ApplicationMetrics" version="6.3.0" exclude="Build,Analyzers" />
-        <dependency id="Npgsql" version="8.0.3" exclude="Build,Analyzers" />
+        <dependency id="Npgsql" version="8.0.4" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
