@@ -4,14 +4,15 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <Version>1.1.0</Version>
+    <Description>An implementation of an ApplicationMetrics metric logger which writes metric and instrumentation information to a PostgreSQL database.</Description>
+    <Version>1.2.0</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="ApplicationLogging" Version="2.0.0" />
     <PackageReference Include="ApplicationMetrics" Version="6.3.0" />
-    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="Npgsql" Version="8.0.4" />
   </ItemGroup>
 
 </Project>

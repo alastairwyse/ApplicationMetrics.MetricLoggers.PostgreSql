@@ -553,7 +553,8 @@ namespace ApplicationMetrics.MetricLoggers.PostgreSql
                         }
                         if (dataSource != null)
                         {
-                            dataSource.Dispose();
+                            // Need to cast to IDisposable to fix this bug running under net7.0 and net8.0 https://github.com/npgsql/efcore.pg/issues/2834
+                            ((IDisposable)dataSource).Dispose();
                         }
                     }
                     // Free your own state (unmanaged objects).

@@ -120,6 +120,12 @@ A detailed sample implementation...<br />
     <td><b>Changes</b></td>
   </tr>
   <tr>
+    <td valign="top">1.2.0</td>
+    <td>
+      Fixed bug causing an exception to be thrown in the PostgreSqlMetricLogger.Dispose() method under .NET 7 and 8.<br />
+    </td>
+  </tr>
+  <tr>
     <td valign="top">1.1.0</td>
     <td>
       Updated for compatibility with ApplicationMetrics version 6.3.0.<br />
