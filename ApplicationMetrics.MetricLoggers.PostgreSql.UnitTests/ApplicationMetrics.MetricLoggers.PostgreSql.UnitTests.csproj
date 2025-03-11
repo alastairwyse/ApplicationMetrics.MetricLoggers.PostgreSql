@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <NoDefaultLaunchSettingsFile>true</NoDefaultLaunchSettingsFile>
     <Description>Unit tests for classes in the ApplicationAccess.Persistence.Sql.PostgreSql namespace.</Description>
     <Authors>Alastair Wyse</Authors>

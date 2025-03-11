@@ -76,6 +76,12 @@ namespace ApplicationMetrics.MetricLoggers.PostgreSql.UnitTests
             testPostgreSqlMetricLogger = new PostgreSqlMetricLoggerWithProtectedMembers(testCategory, testConnectionString, 60, mockBufferProcessingStrategy, IntervalMetricBaseTimeUnit.Millisecond, true, mockLogger, mockDateTimeProvider, mockStopwatch, mockGuidProvider, mockStoredProcedureExecutionWrapper);
         }
 
+        [TearDown]
+        protected void TearDown()
+        {
+            testPostgreSqlMetricLogger.Dispose();
+        }
+
         [Test]
         public void Constructor_CategoryStringParameterWhitespace()
         {
