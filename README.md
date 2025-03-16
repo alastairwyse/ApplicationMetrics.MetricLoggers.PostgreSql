@@ -120,6 +120,12 @@ A detailed sample implementation...<br />
     <td><b>Changes</b></td>
   </tr>
   <tr>
+    <td valign="top">1.4.0</td>
+    <td>
+      Updated to ApplicationMetrics version 7.0.0.<br />
+    </td>
+  </tr>
+  <tr>
     <td valign="top">1.3.0</td>
     <td>
       Updated to ApplicationMetrics version 6.4.1, and Npgsql 8.0.7.<br />
