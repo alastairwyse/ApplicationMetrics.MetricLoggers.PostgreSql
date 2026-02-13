@@ -25,6 +25,7 @@
   </metadata>
   <files>
     <file src=".\ApplicationMetrics.MetricLoggers.PostgreSql\bin\Release\netstandard2.1\ApplicationMetrics.MetricLoggers.PostgreSql.dll" target="lib\netstandard2.1\ApplicationMetrics.MetricLoggers.PostgreSql.dll" />
+    <file src=".\ApplicationMetrics.MetricLoggers.PostgreSql\bin\Release\netstandard2.1\ApplicationMetrics.MetricLoggers.PostgreSql.pdb" target="lib\netstandard2.1\ApplicationMetrics.MetricLoggers.PostgreSql.pdb" />
     <file src=".\ApplicationMetrics.MetricLoggers.PostgreSql\bin\Release\netstandard2.1\ApplicationMetrics.MetricLoggers.PostgreSql.xml" target="lib\netstandard2.1\ApplicationMetrics.MetricLoggers.PostgreSql.xml" />
     <file src=".\Resources\ApplicationMetrics.png" target="images\" />
   </files>
